@@ -1,0 +1,358 @@
+.back1{
+    height: 700px;  
+    width: auto; 
+    background-image: url(/images/pix.jpg); 
+    background-size: cover;
+}
+.back1 h5{
+    text-align: center;
+}
+.firstc{
+    text-align: center;
+    padding: 75px;
+
+}
+.back1 i{
+    display: inline-flex;
+    width: auto;
+}
+
+.icon{
+    margin: auto;
+}
+.christmas{
+    color: hsla(0, 0%, 100%, 0.925);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: larger;
+}
+.back2{
+    position: relative;
+    isolation: isolate;
+}
+.back2::after{
+    content: "";
+    position: absolute;
+    /* background: pink; */
+    inset: 0;
+    z-index: -1;
+    opacity: .3;
+    background-image: url(/images/pix2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.style12{
+    text-align: center;
+    color: rgb(40,31,24);
+    border-radius: 50%;
+}
+.fish1{
+    width: 500px;
+    height: 350px;
+    border-radius: 50px;
+    
+}
+.palm{
+    width: 500px;
+    height: 350px;
+}
+.customer{
+    background-color: #1D2329;
+}
+.cover{
+    background-color:  #1D2329;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.boxbody{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.custH{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+.box1{
+    width: 450px;
+    height: 250px;
+    border-radius: 50px;
+}
+.box2{
+    width: 450px;
+    height: 450px;
+}
+.box3{
+    width: 450px;
+    height: 450px;
+    background-color: ;
+}
+.amira{
+    width: 100%;
+    height: 200px;
+    
+    
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    align-items: center;
+    
+}
+.cardo{
+    width: 325px;
+    background-color: burlywood;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+    margin: 20px; 
+    /* margin-bottom: 1000px; */
+}
+.card-content{
+    padding: 16px;
+    height: 150px;
+}
+.card-content h4{
+    font-size: 20px;
+    /* margin-bottom: 2px; */
+    margin-top: 2px;
+    text-align: center;
+}
+.card-content p{
+    font-size: 12px;
+    color: black;
+    line-height: 1.3;
+}
+.ptp{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: wavy;
+}
+.footer1{
+    /* background-image: url(/images/ada.jpg); */
+    background-size: 100%;
+
+}
+.footer1{
+    background-color: #3A3634 ;
+    height: 150px;
+    width: auto;
+}
+.footer1 h4{
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px;
+}
+.icons11{
+    justify-content: center;
+    margin-left: 43%; 
+}
+.icons11 a{
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    
+}
+.foot2{ 
+    background-color: #1D2329;
+    height:50px;
+}
+.foot2 p{
+    text-align: center;
+    font-size: small;
+}
+.uuu{
+    background:transparent;
+    padding: 10px;
+    justify-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.btn1 button{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100%;
+}
+.box11{
+    /* background: rgba(0,0,0,0.6); */
+    border: 3px solid;
+    padding: 35px;
+}
+.box11 h2{
+    text-align: center;
+}
+.box11 button{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.cont1{
+    float: left;
+    width: 50%;
+}
+.cont2{
+    float: right;
+    width: 50%;
+}
+.icon11{
+    text-align: center;
+}
+.listsh h4{
+    text-align: center;
+}
+/* SLIDER CAROUSEL// */
+.container1{
+    /* background-color: aliceblue; */
+    width: auto;
+}
+.slide_wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem ;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slidernav{
+    display: flex;
+    column-gap: absolute;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slidernav a{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slidernav a:hover{
+    opacity: 1;
+}
+.container1 h4{
+    text-align: center;
+}
+.location h4{
+    text-align: center;
+    justify-content: center;
+}
+.location{
+    position: relative;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .back1{
+        background-image: url(/images/pix.jpg) ;
+        background-size: cover;
+        height: 600px;  
+        width: auto; 
+    }
+}
+.p2p{
+        overflow: hidden;
+        background-color: transparent;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+        overflow: visible;
+}
+.p2p h1{
+    
+    display: block;
+    text-decoration: dotted black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.p2p a:hover{
+    background: #ddd;
+    color: black;
+}
+.mainman{
+    margin-top: 400px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.test i{
+    height: 200px;
+    color: rgb(224, 248, 10);
+}
+.headerme{
+    background-color: transparent;
+}
+/* footer mobile icons */
+@media screen and (max-width: 500px){
+.icons11{
+    justify-content: center;
+    margin-left: 30%; 
+}
+.icons11 a{
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    
+}
+}
+
+.folfol{
+    font-size: larger;
+    color: rgb(248, 248, 248);
+}
+.svgimg{
+    color: white;
+    width: 75px;
+    height: 85px;
+    
+}
+.label1{
+    text-decoration: none;
+}
+.map11{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    /* margin-left: 15%; */
+    /* right: 55%; */
+}
+
+@media screen and (max-width: 500px) {
+    .map11{
+        width: 350px;
+        /* height: auto; */
+        left: 20%;
+        margin-right: 15%;
+
+    }
+}
